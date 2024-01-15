@@ -1,16 +1,14 @@
 import './styles/App.css'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import { Deletemecomp } from './components'
-import { Deletemepage } from './pages'
+import Greeting from './components/greeting.jsx/greeting'
 
 function App() {
 
     return (
       <>
         <Router>
-          <Deletemecomp />
+          <Greeting />
           <Routes>
-            <Route path='/' Component={Deletemepage} />
           </Routes>
         </Router>
       </>
