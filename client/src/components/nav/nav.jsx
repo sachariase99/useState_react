@@ -10,6 +10,7 @@ const Nav = () => {
                 <li><Link className={styles.link} to="/greeting">Greeting</Link></li>
                 <li><Link className={styles.link} to="/counter">Counter</Link></li>
                 <li><Link className={styles.link} to="/todo">To Do</Link></li>
+                <li><Link className={styles.link} to="/stopwatch">Stopwatch</Link></li>
             </ul>
         </nav>
     )
