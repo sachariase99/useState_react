@@ -1,0 +1,26 @@
+.nav {
+    background-color: var(--bg-color-nav);
+
+    ul {
+        display: flex;
+        list-style: none;
+        padding: 10px 30px;
+
+        li {
+            margin-right: 10px;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 1.1rem;
+            cursor: pointer;
+            
+            .link {
+                color: white;
+                text-decoration: none;
+
+                &:hover {
+                    color: var(--bg-hover);
+                }
+            }
+        }
+    }
+}

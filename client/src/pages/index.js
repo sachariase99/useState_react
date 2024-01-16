@@ -1,5 +1,11 @@
-import Deletemepage from "./deletemepage";
+import Greeting from "../pages/greeting/greeting";
+import Counter from "../pages/counter/counter";
+import Home from "./home/home";
+import Todo from "./todo/todo";
 
 export {
-    Deletemepage
+    Greeting,
+    Counter,
+    Home,
+    Todo,
 }

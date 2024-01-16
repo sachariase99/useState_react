@@ -1,5 +1,5 @@
-import Deletemecomp from "./deletemecomp";
+import Nav from "./nav/nav";
 
 export {
-    Deletemecomp
+    Nav,
 }

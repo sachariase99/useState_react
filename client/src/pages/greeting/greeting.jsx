@@ -1,21 +1,22 @@
 import React, { useState } from 'react';
+import styles from './greeting.module.scss'
 
 const Greeting = () => {
-  const [navn, setNavn] = useState('');
-  const [hilsen, setHilsen] = useState('Send en hilsen til ');
+  const [name, setName] = useState('');
+  const [greeting, setGreeting] = useState('Send en hilsen til ');
 
   const handleInputChange = (event) => {
-    setNavn(event.target.value);
+    setName(event.target.value);
   };
 
   return (
-    <div>
-      <p>{hilsen}{navn}</p>
+    <div className={styles.greeting}>
+      <p>{greeting}{name}</p>
 
       <input
         type="text"
         placeholder="Indtast navn"
-        value={navn}
+        value={name}
         onChange={handleInputChange}
       />
     </div>
