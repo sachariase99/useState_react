@@ -28,8 +28,8 @@ const Stopwatch = () => {
 
   return (
     <div className={styles.stopwatchContainer}>
-      <div className="stopwatch-display">{seconds}s</div>
-      <div className="stopwatch-buttons">
+      <div>{seconds}s</div>
+      <div>
         <button onClick={handleStartStop}>{isActive ? 'Stop' : 'Start'}</button>
         <button onClick={handleReset}>Reset</button>
       </div>
